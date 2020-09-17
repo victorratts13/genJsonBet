@@ -1,0 +1,6 @@
+{
+    "requests": {
+        "allPeriod": "30",
+        "localPeriod": "1"
+    }
+}

@@ -1,0 +1,158 @@
+[
+    {
+        "_id": "767429",
+        "endedHT": false,
+        "endedFT": false,
+        "hasDetails": true,
+        "MatchIDBet365": "92410137",
+        "lastSyncTime": "2020-09-15T01:12:23.934Z",
+        "time": "10",
+        "liga": "Costa Rica Segunda",
+        "homeTeam": "AD Juventud Escazucena",
+        "homeGoals": "0",
+        "homeCorners": "0",
+        "awayTeam": "Santa Ana",
+        "awayGoals": "0",
+        "awayCorners": "1",
+        "link": "https://www.bet365.com/#/IP/EV15525026522C1",
+        "events": [
+            {
+                "t": "gc",
+                "c": "2' - 1st Corner - Santa Ana"
+            },
+            {
+                "t": "cd",
+                "c": "Pitch: GOOD"
+            },
+            {
+                "t": "tq",
+                "c": "Weather: GOOD"
+            }
+        ],
+        "odds": {
+            "hrf": -0.75,
+            "hrfsp": "1.950",
+            "grfsp": "1.850",
+            "rft": "2",
+            "rf": [
+                {
+                    "hrf": -0.75,
+                    "hrfsp": "1.950",
+                    "grfsp": "1.850",
+                    "rft": "2",
+                    "ps": "602"
+                },
+                {
+                    "hrf": -0.75,
+                    "hrfsp": "1.925",
+                    "grfsp": "1.875",
+                    "rft": "1",
+                    "ps": "371"
+                },
+                {
+                    "hrf": -0.75,
+                    "hrfsp": "1.900",
+                    "grfsp": "1.900",
+                    "rft": "-1",
+                    "ps": "368"
+                },
+                {
+                    "hrf": -0.75,
+                    "hrfsp": "1.925",
+                    "grfsp": "1.875",
+                    "rft": "2",
+                    "ps": "356"
+                },
+                {
+                    "hrf": -0.75,
+                    "hrfsp": "1.900",
+                    "grfsp": "1.900",
+                    "rft": "2",
+                    "ps": "335"
+                }
+            ],
+            "hdx": "2.5",
+            "hdxsp": "1.750",
+            "gdxsp": "1.950",
+            "dxt": "0",
+            "dx": [
+                {
+                    "hdx": "2.5",
+                    "hdxsp": "1.750",
+                    "gdxsp": "1.950",
+                    "dxt": "0",
+                    "ps": "602"
+                },
+                {
+                    "hdx": "2.75",
+                    "hdxsp": "1.925",
+                    "gdxsp": "1.875",
+                    "dxt": "2",
+                    "ps": "587"
+                },
+                {
+                    "hdx": "2.75",
+                    "hdxsp": "1.900",
+                    "gdxsp": "1.900",
+                    "dxt": "1",
+                    "ps": "371"
+                },
+                {
+                    "hdx": "2.75",
+                    "hdxsp": "1.800",
+                    "gdxsp": "2.000",
+                    "dxt": "-1",
+                    "ps": "368"
+                },
+                {
+                    "hdx": "2.75",
+                    "hdxsp": "1.900",
+                    "gdxsp": "1.900",
+                    "dxt": "2",
+                    "ps": "356"
+                }
+            ],
+            "hcb": "9.5",
+            "hcbsp": "1.825",
+            "gcbsp": "1.975",
+            "cbt": "2",
+            "cb": [
+                {
+                    "hcb": "9.5",
+                    "hcbsp": "1.825",
+                    "gcbsp": "1.975",
+                    "cbt": "2",
+                    "ps": "587"
+                },
+                {
+                    "hcb": "9.5",
+                    "hcbsp": "1.800",
+                    "gcbsp": "2.000",
+                    "cbt": "2",
+                    "ps": "554"
+                },
+                {
+                    "hcb": "9.5",
+                    "hcbsp": "1.775",
+                    "gcbsp": "2.025",
+                    "cbt": "0",
+                    "ps": "532"
+                },
+                {
+                    "hcb": "10",
+                    "hcbsp": "2.025",
+                    "gcbsp": "1.775",
+                    "cbt": "2",
+                    "ps": "519"
+                },
+                {
+                    "hcb": "10",
+                    "hcbsp": "1.850",
+                    "gcbsp": "1.950",
+                    "cbt": "1",
+                    "ps": "371"
+                }
+            ]
+        }
+    }
+]
