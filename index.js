@@ -1,10 +1,13 @@
 const scoreBing = require('scorebing-api');
 const pullData = require('pulldata-bet-api');
 const betscoreapi = require('betscoreapi');
+const express = require('express');
 const fs = require('fs');
 const clear = require('clear-module');
 const config = require('./configs/configs.json')
+const port = config.requests.port;
 
+let app = express();
 let score = new scoreBing();
 let pull = new pullData();
 let bet = new betscoreapi();
@@ -12,6 +15,29 @@ let tempFile = require('./temp/tempFile.json')
 
 let longPeriod = config.requests.allPeriod * 60 * 1000;
 let shortPeriod = config.requests.localPeriod * 60 * 1000;
+
+app.get('/', (req, res) => {
+    res.send(
+        `
+            <h1>Routes</h1>
+            <br><h3><a href="/filter">Filted</h3></a>
+            <br><h3><a href="/all">all Live</h3></a>
+            <br><h3><a href="/inPlay">InPlay</h3></a>
+        `
+    )
+})
+
+app.get('/filter', (req, res) => {
+    res.json(require('./filtedData.json'));
+})
+
+app.get('/all', (req, res) => {
+    res.json(require('./temp/tempFile.json'));
+})
+
+app.get('/InPlay', (req, res) => {
+    res.json(require('./temp/tempData.json'));
+})
 
 
 setImmediate(() => {
@@ -196,3 +222,7 @@ setInterval(() => {
     })
     
 }, shortPeriod)
+
+app.listen(port, () => {
+    console.log('listen on port: '+port)
+})
