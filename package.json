@@ -1,0 +1,32 @@
+{
+  "name": "betguidgen",
+  "version": "1.0.0",
+  "description": "json game guid generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorratts13/betguidgen.git"
+  },
+  "keywords": [
+    "bet365",
+    "gen",
+    "json",
+    "games"
+  ],
+  "author": "Victor Ratts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorratts13/betguidgen/issues"
+  },
+  "homepage": "https://github.com/victorratts13/betguidgen#readme",
+  "dependencies": {
+    "betscoreapi": "^1.0.4",
+    "clear-module": "^4.1.1",
+    "pulldata-bet-api": "^2.0.1",
+    "scorebing-api": "^1.0.0"
+  }
+}
