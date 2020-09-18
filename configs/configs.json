@@ -1,6 +1,7 @@
 {
     "requests": {
         "allPeriod": "30",
-        "localPeriod": "1"
+        "localPeriod": "1",
+        "port": 3001
     }
 }
