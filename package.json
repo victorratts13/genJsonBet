@@ -26,6 +26,7 @@
   "dependencies": {
     "betscoreapi": "^1.0.4",
     "clear-module": "^4.1.1",
+    "express": "^4.17.1",
     "pulldata-bet-api": "^2.0.1",
     "scorebing-api": "^1.0.0"
   }
